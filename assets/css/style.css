@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(225, 240, 205);
+    background-color: rgb(240, 243, 236);
 }
 .col-12{
     margin-top: 30px;
@@ -20,18 +20,17 @@ body {
 }
 
 .callout-container {
-    height: 100vh;
-
+    
+    height: 600px;
+    width: 100%;
     background: url('../images/mhd.avif') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
@@ -69,7 +68,7 @@ img {
     min-height: 1px;
     padding: 1.25rem;
     text-align: justify;
-    background-color: rgb(225, 240, 205);
+    background-color:rgb(240, 243, 236);
     
 }
 /**Quotes**/
@@ -220,6 +219,12 @@ footer {
 
 #footer-details {
     padding: 20px;
+    
 }
 /**Media**********************************/
-
+@media screen and (min-width:1024px) {
+    .hide{
+        display: none;
+        flex-wrap: wrap;
+    }
+}
