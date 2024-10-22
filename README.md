@@ -67,7 +67,7 @@ How to View the Project
 
 1. Clone the repository to your local machine:
 
-git clone https://github.com/yourusername/mental-health-webpage.git
+git clone https://mery369.github.io/MentalHealth-M/
 
 2. Navigate to the project folder:
 
