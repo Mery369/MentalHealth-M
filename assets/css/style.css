@@ -48,8 +48,9 @@ body {
 .card-container {
     display: flex;
     flex-wrap: wrap;
-    margin: 5px 20px;
+    margin: 5px 5px;
     justify-content: center;
+    align-items: center;
 }
 .card {
     height: 100%;
@@ -70,10 +71,11 @@ img {
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1.25rem;
-   
     background-color:rgb(240, 243, 236);
     width: 70%;
     
+}
+.card-text{
 }
 /**Quotes**/
 
@@ -89,6 +91,12 @@ img {
     height: 100%;
     width: 100%;
     border-radius: 50%;
+}
+.par{
+   
+    margin-bottom: 50px;
+   font-weight: 600;
+   font-size:x-large;
 }
 /* Block dividers */
 
